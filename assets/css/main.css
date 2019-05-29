@@ -1,0 +1,48 @@
+.navegar {
+  background-color: #121619;
+  height: 90px;
+  color: #fffff;
+}
+
+.navegar__logo__img {
+  width: 5rem;
+  padding-left: 7.5rem;
+  vertical-align: middle;
+}
+
+.navegar__menu {
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.button {
+  padding: 0.6 0.25rem;
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
+
+.button__default {
+  background-color: #6c6e70;
+  border: none;
+}
+.button__default:hover {
+  background-color: #e6e7e7;
+  background-color: #e6e7e7;
+  border-color: #fffff;
+}
+
+.button__positive {
+  background-color: #6c6e70;
+  background-color: #6c6e70;
+  border: 2px solid #e6e7e7;
+}
+.button__positive:hover {
+  background-color: #d1d1d1;
+  border-color: #e6e7e7;
+}
+
+/*# sourceMappingURL=main.css.map */

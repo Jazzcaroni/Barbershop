@@ -1,0 +1,29 @@
+.button {
+	padding: .6.25rem;
+	border-radius: 20px;
+	font-family: $roboto;
+	font-size: $small;
+}
+
+.button__default {
+	background-color: $nickel;
+	border: none;
+
+	&:hover {
+		background-color: $platinum;
+		background-color: $platinum;
+		border-color: $white;
+	}
+}
+
+
+.button__positive {
+	background-color: $nickel;
+	background-color: $nickel;
+	border: 2px solid $platinum;
+
+	&:hover {
+		background-color: $light-gray;
+		border-color: $platinum;
+	}
+}

@@ -1,0 +1,20 @@
+.navegar {
+	background-color: $eerie-black;
+	height: 90px;
+	color: $white;
+}
+
+
+.navegar__logo__img {
+	width: 5rem;
+	padding-left: 7.5rem;
+	vertical-align: middle;
+}
+
+.navegar__menu {
+	text-decoration: none;
+	display: inline-block;
+	font-family: $roboto;
+	font-weight: $regular;
+	font-size: $medium;
+}
