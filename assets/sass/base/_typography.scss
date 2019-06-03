@@ -1,13 +1,12 @@
-h1{
+h1 {
 font-family: $Playfair;
 font-size: $xx-large;
 font-style: italic;
 margin-left: auto;
 margin-right: auto;
-display: block;
 }
 
-h2{
+h2 {
     font-size: $x-large;
     font-family: $Playfair;
     font-style: italic;
@@ -15,7 +14,7 @@ h2{
     padding-top: 40px;
 }
 
-h3{
+h3 {
     font-size: $large;
     font-family: $Playfair;
     font-style: italic;
@@ -23,7 +22,7 @@ h3{
     padding-bottom: 30px;
 }
 
-p{
+p {
     font-family: $Roboto;
     font-style: sans-serif;
 }

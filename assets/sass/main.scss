@@ -1,24 +1,32 @@
 @import
-  'abstracts/variables',
-  'abstracts/mixin';
-
-  @import
-  'vendors/bootstrap-4.3.1/bootstrap';
+      'abstracts/variables',
+      'abstracts/mixin';
 
 @import
-  'base/base',
-  'base/reset',
-  'base/typography';
-
-  @import
-  'components/navbar',
-  'components/buttons',
-  'components/pagination',
-  'components/input';
-
+      'vendors/bootstrap-4.3.1/bootstrap';
 
 @import
-'layout/header',
-  'layout/section',
-  'layout/footer';
+      'base/base',
+      'base/reset',
+      'base/typography';
 
+@import
+      'layout/article',
+      'layout/header',
+      'layout/section',
+      'layout/nav',
+      'layout/footer';
+
+@import
+      'components/navbar',
+      'components/buttons',
+      'components/pagination',
+      'components/input';
+
+@import
+      'pages/home',
+      'pages/contact';
+
+@import
+      'themes/theme',
+      'themes/admin';

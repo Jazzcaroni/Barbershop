@@ -1,34 +1,40 @@
-// Primer esquema de colores
+// Esquema de colores
+//  Primer esquema de colores
 $white: #fff;
 $platinum: #e6e7e7;
 $light-gray: #d1d1d1;
 
-//Segundo esquma de colores
+// Segundo esquma de colores
  $fuzzy-wuzzy: #e56353;
  $ruddy-pink: #d76c69;
  $spanish-pink: #ecbcba;
 
- //Tercer esquema de colores
+ // Tercer esquema de colores
  $eerie-black: #121619;
  $raisin-black: #020505;
  $nickel: #6c6e70;
 
-//Tipografías
+//  Tipografías
 $Roboto: 'Roboto', sans-serif;
 $Playfair: 'Playfair Display', italic;
 
-//Peso de fuentes
+// Peso de fuentes
 $regular: 400;
 $medium: 300;
-$negro: 900;
+$grueso: 900;
 
-//Tamaño de fuentes
+// Tamaño de fuentes
 $xx-large: 70px;
 $x-large: 30px;
 $large: 18px;
 $medium: 16px;
 $small: 12px;
 
-//Buttons size
+// Tamaño de botones
 $medium-button: 200px;
 $small-button: 100px;
+
+// Thumbnail size
+
+$normal-size: 140px;
+$small-size: 130px;

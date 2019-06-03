@@ -1,18 +1,16 @@
-.article{
-    padding: 50px;
+
+.container {
+  padding-bottom: 30px;
 }
 
-.article__container__parrafo{
-    padding-right: 30px;
-    padding-top: 20px;
-    font-family: $Roboto;
-    font-style: sans-serif;
-}
 
-.container__bloguera__img{
+.container__bloguera__img {
 border-radius: 50%;
-width:70%;
-padding-bottom: 30px;
+width: $small-size;
+vertical-align: middle;
+text-align: center;
+border: 3px solid $light-gray;
+margin: 10px;
 }
 
 .container__texto {
@@ -20,8 +18,7 @@ padding-bottom: 30px;
     padding-top: 30px;
     font-family: $Roboto;
 }
-.container__bloguera__rrss{
+.container__bloguera__arroba {
     font-family: $Roboto;
+    margin-bottom: 0;
 }
-
-
