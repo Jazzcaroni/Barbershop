@@ -1,8 +1,21 @@
-.header__img {
-	height: 100vh;
-	background-color: $white;
-	background-image: url(../images/post-image.jpg);
-	background-repeat: no-repeat;
-	box-sizing: cover;
-	background-position: 80%;
-}   
+.header{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    color: $white;
+    font-weight: $negro;
+   margin-bottom: auto;
+   margin-right: auto;
+}
+
+.main__container{
+background: url('../img/post-image.jpg') no-repeat;
+background-size: 100%;
+min-height: 400px;
+}
+
+.main__container__title{
+padding-top: 100px;
+}

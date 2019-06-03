@@ -1,29 +1,31 @@
-.button {
-	padding: .6.25rem;
-	border-radius: 20px;
-	font-family: $roboto;
-	font-size: $small;
+.botones{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.button__default {
-	background-color: $nickel;
-	border: none;
+.botones__comparte{
+background-color: $nickel;
+padding: 10px;
+text-align: center;
+color: $white;
+border-radius: 10px;
+width: auto;
 
-	&:hover {
-		background-color: $platinum;
-		background-color: $platinum;
-		border-color: $white;
-	}
+&:hover{
+    background-color: $ruddy-pink;
+    color: $white;
+}
 }
 
+.boton__comenta{
+background-color: $nickel;
+padding: 12px;
+color: $white;
+border-radius: 10px;
+width: auto;
 
-.button__positive {
-	background-color: $nickel;
-	background-color: $nickel;
-	border: 2px solid $platinum;
-
-	&:hover {
-		background-color: $light-gray;
-		border-color: $platinum;
-	}
+&:hover{
+    background-color: $ruddy-pink;
+    color: $white;
+}
 }
